@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏟️ StadiumSync
+# StadiumSync
 
 ### Real-Time Crowd Intelligence & Venue Navigation Platform
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 StadiumSync is a full-stack web application designed to transform the in-stadium experience. Using a real-time dataset of **10,000+ sensor readings**, the platform provides attendees and staff with live crowd intelligence, dramatically reducing congestion and improving safety at large events.
 
@@ -41,24 +41,24 @@ Built as a hackathon submission for a national competition, StadiumSync demonstr
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🗺️ **Interactive Venue Map** | Real-time crowd density overlays across all stadium zones |
-| ⏱️ **Live Wait Times** | Up-to-the-minute wait times for concessions, restrooms & gates |
-| 📅 **Event Schedule** | Live scores, key moments, and event timeline |
-| 🔔 **Smart Alerts** | Gate changes, emergencies, and special announcements pushed instantly |
-| 💺 **Seat Finder** | Step-by-step navigation from entrance to your exact seat |
-| 🤖 **AI Chat Assistant** | On-demand help powered by AI for venue queries |
-| 🛡️ **Admin Dashboard** | Staff management panel for real-time venue operations |
-| 📊 **Data Import Tool** | Bulk CSV import for historical and real-time sensor data |
-| 👤 **Role-Based Access** | Separate views for attendees, staff, and administrators |
-| 🌙 **Theme Support** | Light and dark mode for all-condition readability |
+| **Interactive Venue Map** | Real-time crowd density overlays across all stadium zones |
+| **Live Wait Times** | Up-to-the-minute wait times for concessions, restrooms & gates |
+| **Event Schedule** | Live scores, key moments, and event timeline |
+| **Smart Alerts** | Gate changes, emergencies, and special announcements pushed instantly |
+| **Seat Finder** | Step-by-step navigation from entrance to your exact seat |
+| **AI Chat Assistant** | On-demand help powered by AI for venue queries |
+| **Admin Dashboard** | Staff management panel for real-time venue operations |
+| **Data Import Tool** | Bulk CSV import for historical and real-time sensor data |
+| **Role-Based Access** | Separate views for attendees, staff, and administrators |
+| **Theme Support** | Light and dark mode for all-condition readability |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** with **TypeScript**
@@ -82,7 +82,7 @@ Built as a hackathon submission for a national competition, StadiumSync demonstr
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 stadiumsync/
@@ -135,7 +135,7 @@ stadiumsync/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -199,7 +199,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 
 StadiumSync uses **Drizzle ORM** with MySQL. The schema includes the following tables:
 
@@ -219,7 +219,7 @@ StadiumSync uses **Drizzle ORM** with MySQL. The schema includes the following t
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 See [`.env.example`](./.env.example) for all required variables. Key ones:
 
@@ -235,7 +235,7 @@ See [`.env.example`](./.env.example) for all required variables. Key ones:
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev:server      # Start backend in development mode
@@ -248,7 +248,7 @@ npm run import-data     # Import CSV venue data
 
 ---
 
-## 🔌 API Routes
+## API Routes
 
 All API routes are served via **tRPC** with full type safety end-to-end. Key routers include:
 
@@ -265,7 +265,7 @@ All API routes are served via **tRPC** with full type safety end-to-end. Key rou
 
 ---
 
-## 📦 Data Import
+## Data Import
 
 StadiumSync ships with a **10,000-row real-time sensor dataset** capturing:
 
@@ -284,7 +284,7 @@ node scripts/import-venue-data.mjs ./data/smart_stadium_realtime_dataset_10000.c
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/your-feature`
@@ -294,15 +294,13 @@ node scripts/import-venue-data.mjs ./data/smart_stadium_realtime_dataset_10000.c
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
 <div align="center">
-
-Made with ❤️ for the National Hackathon Competition
 
 **StadiumSync** — Smarter Venues. Better Experiences.
 
