@@ -1,0 +1,91 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+.pnp
+.pnp.js
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===========================
+# Build Outputs
+# ===========================
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===========================
+# OS & Editor Files
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===========================
+# IDE / Editor Config
+# ===========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================
+# TypeScript
+# ===========================
+*.tsbuildinfo
+
+# ===========================
+# Testing
+# ===========================
+coverage/
+.nyc_output/
+
+# ===========================
+# Drizzle / Database
+# ===========================
+drizzle/migrations/*.sql
+!drizzle/0000_thin_jubilee.sql
+!drizzle/0001_worthless_the_stranger.sql
+
+# ===========================
+# Debug / Manus Tools
+# ===========================
+client/public/__manus__/
+
+# ===========================
+# Misc
+# ===========================
+.cache/
+.parcel-cache/
+.turbo/
+*.local
